@@ -29,8 +29,13 @@
                 var url = $('.createVal').val().trim();
                 me.createQr(url);
             });
+            $wrap.delegate('#export','click',function(){
+                var $self = $(this),url;
+                url = $('.qr-img canvas')[0];
+                $self[0].download ='export_qr_image';
+                $self[0].href = url.toDataURL();
+            })
         }
     };
-
     qr.init();
 })();

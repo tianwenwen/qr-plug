@@ -4,7 +4,7 @@
     "manifest_version":2,
     "description":"Create QR image",
     "icons":{
-        "48":"icon48.png"
+        "48":"images/icon48.png"
     },
     "background":"bg.html",
     "permissions":["tabs"],
