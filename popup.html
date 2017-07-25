@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            height: 560px;
+            overflow: hidden;
+        }
+        body{
+            font-size: 12px;
+            font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin: 5px;
+            -webkit-user-select: none;
+            width: 350px;
+            background: #fafaff;
+        }
+        .container{
+            padding:20px;
+        }
+        .qr-img{
+            margin:5px 5px 9px;
+        }
+        textarea{
+            width: 320px;
+            height: 122px;
+            font-family: monospace;
+            border: 1px solid #C1C0B5;
+            border-color: #AAA #DDD #DDD #AAA;
+            background-color: #FAFAF0;
+            padding: 3px;
+            outline: none;
+            resize: none;
+        }
+        button{
+            cursor: pointer;
+            padding: 11px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #0078e7;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 2px;
+            margin:15px auto 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="qr-img">
+    </div>
+    <textarea class="createVal"></textarea>
+    <button>QR</button>
+</div>
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery.qrcode.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

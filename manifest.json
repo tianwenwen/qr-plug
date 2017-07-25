@@ -1,0 +1,15 @@
+{
+    "name":"QR",
+    "version":"1.0",
+    "manifest_version":2,
+    "description":"Create QR image",
+    "icons":{
+        "48":"icon48.png"
+    },
+    "background":"bg.html",
+    "permissions":["tabs"],
+    "browser_action":{
+        "default_title":"Quick QR",
+        "default_popup":"popup.html"
+    }
+}
